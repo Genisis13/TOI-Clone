@@ -1,0 +1,137 @@
+body{
+
+  padding: 0;
+  margin: 0;
+
+}
+
+.header{
+
+  background-color: black;
+  color: white;
+
+}
+.website{
+  padding: 20px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family:"Times New Roman", Times, serif;  
+  
+}
+.social-icons{
+  text-align:right;
+  flex-grow: 0;
+  color: white;
+  margin: 0 7px;
+  cursor: pointer;
+}
+.navbar{
+  padding: 0px;
+  height: 30px;
+  display: flex;
+  flex-wrap:wrap;
+  font-family:"Times New Roman", Times, serif;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  color: white;
+  font-size: 16px;
+  margin-left: 8%;
+}
+
+
+.news-nav,  a {
+  display: inline-flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.nav, a {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 16px;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  color: black;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color: black;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+.container {
+  margin: 0px auto;
+  width: 50%;
+  padding: 8px;
+  font-size: larger;
+
+}
+.container {
+  margin: 0px auto;
+  width: 50%;
+  padding: 8px;
+  font-size: larger;  
+  font-style: italic;
+
+}
+
+.site-footer{
+  width: 100%
+  bottom: 0;
+  color: #fff;
+  padding:100px 0 30px;
+  font-size:13px; 
+  
+}
+  
+.row {
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-wrap: flex start;
+   align-items: flex-start;
+   justify-content: flex-start;  
+  }
+
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+    text-align:left;
+    
+  }
+  
+
+.copyright-text{
+  margin: 50px;
+
+}
+
+@media(max width:600px) 
+ {
+  .footer-right > *{
+    flex: 1;
+  }
+  .footer-left{
+    flex: 1 0px;
+  }
+}
+
+  
